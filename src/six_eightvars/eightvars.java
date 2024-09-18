@@ -10,7 +10,7 @@ public class eightvars {
         double trouble = 0.000000000000001;
         boolean schoolean = false;
         char acter = '☻';
-        String puppet = "Wait a minute, why is there just one zero in this:";
+        String puppet = "Wait a minute, why is there not one zero in this:";
         System.out.println(schoolean);
         System.out.println(acter);
         System.out.println(puppet);

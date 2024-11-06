@@ -13,6 +13,8 @@ public class geoguessr {
         int second = input.nextInt();
 
         //it Really Really feels like there should be a more compact way of doing this
+        //I at least know that, with a little math, I could calculate the angle from the given point to the set point
+        //but that doesn't help with making this any smaller
         if(first == 0 & second == 0){
             System.out.println("Tower");
         } else if(first > 0 && second == 0){

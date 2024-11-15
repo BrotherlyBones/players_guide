@@ -30,9 +30,9 @@ public class hangmanbackend {
                     {'M', 'E', 'G', 'A', 'L', 'O', 'M', 'A', 'N', 'I', 'A'},
                     {'F', 'O', 'X'}
             };
-    private ArrayList<Character> answer = new ArrayList<>();
+    private final ArrayList<Character> answer = new ArrayList<>();
     public static ArrayList<Character> progress = new ArrayList<>();
-    private ArrayList<Character> guessed = new ArrayList<>();
+    private final ArrayList<Character> guessed = new ArrayList<>();
 
     public byte newGame(byte difficulty) {
         /*

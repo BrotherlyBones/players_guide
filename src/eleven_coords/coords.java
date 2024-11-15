@@ -1,6 +1,7 @@
 package eleven_coords;
 
 import java.util.Scanner;
+import twenty_Firstmethod.Firstmethod;
 
 public class coords {
     public static void main(String[] args) {
@@ -19,8 +20,7 @@ public class coords {
                 exit = true;
             } else {
 
-                System.out.println("in which column will the attack land?");
-                column = input.nextInt();
+                column = Firstmethod.askForNumber("in which column will the attack land?", Integer.MIN_VALUE, Integer.MAX_VALUE);
 
                 System.out.println("what about the row?");
                 row = input.nextInt();
